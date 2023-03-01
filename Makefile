@@ -1,4 +1,5 @@
-main: main.c
-  gcc main.c LL.c -o a.out -g -Wall -Werror 
-clean: 
-  rm ./a.out
+msh: main.c
+	gcc main.c LLtest.c -o a.out -g -Wall -Werror
+
+clean:
+	rm ./a.out
